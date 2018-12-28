@@ -4,7 +4,7 @@ Azure api management is an api gateway / proxy service / developer portal used t
 
 https://azure.microsoft.com/en-us/services/api-management/
 
-functions-api-management is an azure functions (v2) app project used to provision developer's via a queue driven function.
+functions.api.management is an azure functions (v2) app project used to provision developer's via a queue driven function.
 
 ## Azure functions
 
@@ -17,7 +17,8 @@ https://code.visualstudio.com/tutorials/functions-extension/getting-started
 The following environment variables are required.
 
 ```
-# functions-api-management
+# functions.api.management
+
 export QUEUE_CONNECTIONSTRING=""
 export AZURE_SUBSCRIPTION_ID=""
 export AZURE_RESOURCE_GROUP=""

@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "queueMessage",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "api-developer-provision",
+      "connection": "QUEUE_CONNECTIONSTRING"
+    }
+  ]
+}

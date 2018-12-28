@@ -44,7 +44,7 @@ The expected message format is :
 
 The function provisions the user within azure api management.
 
-During user provisioning, they are sent an invite email, which instructs the user to login to the developer portal to gain access to iqualify integration information.
+During user provisioning, they are sent an invite email, which instructs the user to login to the developer portal to gain access to api integration information.
 
 ### Getting started
 

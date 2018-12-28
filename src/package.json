@@ -1,7 +1,7 @@
 {
-  "name": "functions-api-management",
-  "version": "1.0.0-beta",
-  "description": "functions-api-management is used to provision developer's via a queue driven function",
+  "name": "functions.api.management",
+  "version": "1.0.0",
+  "description": "functions.api.management is used to provision developer's via a queue driven function",
   "engines": {
     "node": "10.14.1"
   },
@@ -14,12 +14,8 @@
     "azure-api-management",
     "javascript"
   ],
-  "author": "iqualify",
+  "author": "sam grimmer",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iqualify/functions-api-management.git"
-  },
   "dependencies": {
     "azure-arm-apimanagement": "^4.4.0-preview",
     "ms-rest-azure": "^2.5.9"

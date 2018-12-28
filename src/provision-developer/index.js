@@ -39,7 +39,6 @@ module.exports = async function(context, queueMessage) {
     firstName: validatedQueueMessageObject.firstName,
     lastName: validatedQueueMessageObject.lastName,
     password: validatedQueueMessageObject.password,
-    note: validatedQueueMessageObject.apiToken,
     confirmation: 'invite',
   };
 
